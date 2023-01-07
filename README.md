@@ -15,5 +15,9 @@ edit generated tcl file as you need (usually I for import in Libero a small chan
 
 for new core in new Libero project fix following: 
 
-sd_replace_component -sd_name Libero_sd -instance_name {SYSTEM_ip_0} -new_component_name ...
-
+Edit generated tcl:
+1. sd_replace_component -sd_name Libero_sd -instance_name {SYSTEM_ip_0} -new_component_name ...
+2. remove all Libero_sd and open project rows
+3. Left ONLY import_files and hdl_core rows
+4. run tcl inside existing Libero project
+5. Details see in Libero_HDL_simulink repo
