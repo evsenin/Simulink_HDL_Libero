@@ -3,7 +3,9 @@
 *.asv
 *.slx.r*
 *.autosave
-simulink/hdl_prj/**/doc/*
-simulink/hdl_prj/**/*.mat
-simulink/hdl_prj/hdlsrc/*
-
+hdl_prj/**/doc/*
+hdl_prj/**/*.mat
+hdl_prj/hdlsrc/*
+resources/*
+slprj/*
+cpAnnotation.mat
