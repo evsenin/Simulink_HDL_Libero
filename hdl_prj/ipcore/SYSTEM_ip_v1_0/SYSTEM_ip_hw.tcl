@@ -263,7 +263,7 @@ hdl_core_assign_bif_signal -hdl_core_name SYSTEM_ip -bif_name AXI4_Master -bif_s
 hdl_core_assign_bif_signal -hdl_core_name SYSTEM_ip -bif_name AXI4_Master -bif_signal_name BREADY -core_signal_name AXI4_Master_Wr_BREADY 
 
 sd_update_instance -sd_name Libero_sd -instance_name SYSTEM_ip_0
-sd_replace_component -sd_name Libero_sd -instance {SYSTEM_ip_0} -new_component {SYSTEM_ip%D:\Work\github\Simulink_HDL\hdl_prj\ipcore\SYSTEM_ip_v1_0\prj/hdl/SYSTEM_ip.v}
+sd_replace_component -sd_name Libero_sd -instance_name {SYSTEM_ip_0} -new_component_name {SYSTEM_ip%D:\Work\github\Simulink_HDL\hdl_prj\ipcore\SYSTEM_ip_v1_0\prj/hdl/SYSTEM_ip.v}
 save_smartdesign -sd_name Libero_sd 
 save_project
 build_design_hierarchy
