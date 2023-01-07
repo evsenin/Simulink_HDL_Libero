@@ -1,0 +1,9 @@
+*.slxc
+*.bak
+*.asv
+*.slx.r*
+*.autosave
+simulink/hdl_prj/**/doc/*
+simulink/hdl_prj/**/*.mat
+simulink/hdl_prj/hdlsrc/*
+
