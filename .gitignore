@@ -6,6 +6,7 @@
 hdl_prj/**/doc/*
 hdl_prj/**/*.mat
 hdl_prj/hdlsrc/*
+hdl_prj/**/prj/*
 resources/*
 slprj/*
 cpAnnotation.mat
