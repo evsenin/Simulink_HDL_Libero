@@ -4,7 +4,7 @@
 %% dependencies
 %% Input data and constants
 % constants
-model_time_step = 1/80e6; % 1/62.5 MHz
+model_time_step = 1/80e6; % 1/80 MHz
 %% AXI4 init data
 AXI_DDR_CONTROL = Simulink.Parameter;
 AXI_DDR_CONTROL.Value = uint32(0); 
